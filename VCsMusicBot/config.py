@@ -8,13 +8,13 @@ if os.path.exists("local.env"):
 
 que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("8134572256:AAGyLugyrSRogOyB5mjdTrtJ-GulWk93S8A")
+BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("RM_Music_Finder")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "tgbotproject")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "RM_Movie_Flix")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/cf19dda907391656338eb.png")
 admins = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("21188057", ""))
+API_HASH = getenv("8564fab8db759bb04b1907bd12ed98ef")
 BOT_USERNAME = getenv("RM_Music_RBot")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "VCsMusicPlayer")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "RM_Support_Group")
